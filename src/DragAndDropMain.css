@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dos columnas iguales */
+  gap: 20px; /* separación entre columnas */
+  padding: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+.column {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.left {
+  background-color: #d1e7dd;
+}
+
+.right {
+  background-color: #f8d7da;
+}
+
+.right-dnd-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* separación entre los DragAndDrop */
+}
+
+.blue-bg {
+  background-color: #077deb; /* celeste claro */
+}
+
+.red-bg {
+  background-color: #f80d0d; /* rosado claro */
+}
